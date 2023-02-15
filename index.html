@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Praca domowa CSS</title>
+</head>
+
+<body>
+	<header>
+		<img src="images/header-logo.png" alt="Logo" />
+		<div class="search-bar">
+			<input id="search-input" type="text" placeholder="Job type or location..." />
+			<button type="button"></button>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Offers</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Privacy Policies</a></li>
+			</ul>
+		</nav>
+		<a href="#" class="post-job"><button type="button">Post a job</button></a>
+		<div class="sign-in-button-container">
+			<p>Sign in</p>
+			<button class="sign-in-button"></button>
+		</div>
+	</header>
+	<section class="job-specialization">
+		<div class="spec-buttons-container">
+			<div class="button-wrapper btn-wrap-1">
+				<div class="button-tab button-tab-1"></div>
+				<button class="spec-select-button">Frontend</button>
+			</div>
+			<div class="button-wrapper btn-wrap-2">
+				<div class="button-tab button-tab-2"></div>
+				<button class="spec-select-button">Architekt</button>
+			</div>
+			<div class="button-wrapper btn-wrap-3">
+				<div class="button-tab button-tab-3"></div>
+				<button class="spec-select-button">DevOps</button>
+			</div>
+			<div class="button-wrapper btn-wrap-4">
+				<div class="button-tab button-tab-4"></div>
+				<button class="spec-select-button">Fullstack</button>
+			</div>
+			<div class="button-wrapper btn-wrap-5">
+				<div class="button-tab button-tab-5"></div>
+				<button class="spec-select-button">Analityk</button>
+			</div>
+			<div class="button-wrapper btn-wrap-6">
+				<div class="button-tab button-tab-6"></div>
+				<button class="spec-select-button">Tester</button>
+			</div>
+			<select class="select-more" name="Select More">
+				<option value="+6">+ 6</option>
+			</select>
+			<select class="select-seniority" name="Select Seniority">
+				<option value="seniority" selected disabled hidden>Seniority</option>
+			</select>
+		</div>
+	</section>
+	<section class="additional-filters">
+		<button class="git-icon" type="button"></button>
+		<p> Git </p>
+		<button class="js-icon" type="button"></button>
+		<p> Vue </p>
+		<button class="other-icon" type="button"></button>
+		<p> Angular </p>
+		<button class="git-icon" type="button"></button>
+		<p> JS </p>
+		<button class="js-icon" type="button"></button>
+		<p> CSS </p>
+		<button class="git-icon" type="button"></button>
+		<p> HTML</p>
+		<button class="js-icon" type="button"></button>
+		<p> Agile </p>
+		<button class="other-icon" type="button"></button>
+		<p> Git </p>
+		<select name="Select More Filters">
+			<option value="+32">+ 32</option>
+		</select>
+			<button class="remote-button">100% Remote</button>
+			<button class="price-button">Price range</button>
+	</section>
+	<section class="offers">
+		<div class="offer-filters">
+			<div class="filters-button">
+				<button type="button"></button>
+				<p>Filters</p>
+			</div>
+			<p> Sort by: </p>
+			<select name="sort-by">
+				<option value="latest" selected>latest</option>
+			</select>
+			<button class="list-btn" type="button"></button>
+			<button class="grid-btn" type="button"></button>
+		</div>
+			<div class="offers-list">
+				<div class="offer-wrapper">
+				<div class="offer-tab offer-tab-1"></div>
+				<div class="offer">
+					<img src="./images/icon-group.png" alt="icon-group" class="company-img" />
+					<span class="offer-title"> Remote Ruby on Rails Developer
+						<img src="./images/icon-remote.png" alt="icon-remote" class="remote-icon" />
+					</span>
+					<span class="company"> Netguru S.A. 
+						<span class="vertical-separator-1"></span>
+					</span>
+					<span class="location">
+						<img src="./images/icon-location.png" alt="icon-location" />
+						Poznan, Poland
+						<span class="vertical-separator"></span>
+					</span>
+					<span class="level"> Mid 
+						<span class="vertical-separator"></span>
+					</span>
+					<span class="offer-duration">
+						<img src="./images/icon-offer-new.png" alt="icon-offer-new" />
+					</span>
+					<span class="salary">
+						9 350 - 14 000 PLN net💰
+					</span>
+					<img class="heart" src="./images/icon-heart.png" alt="icon-heart" />
+					<div class="langs">
+					<p class="language" id="ruby"> Ruby </p>
+					<p class="language"> JavaScript </p>
+					<p class="language"> SQL </p>
+					</div>
+					<button class="apply-btn">Quickly apply</button>
+				</div>
+			</div>
+			</div>
+			<div class="offer-wrapper">
+				<div class="offer-tab offer-tab-2"></div>
+				<div class="offer">
+					<img src="./images/icon-group.png" alt="icon-group" class="company-img" />
+					<span class="offer-title"> Senior Full-Stack Developer (Java)
+					</span>
+					<span class="company"> Netguru S.A. 
+						<span class="vertical-separator-1"></span>
+					</span>
+					<span class="location">
+						<img src="./images/icon-location.png" alt="icon-location" />
+						Warsaw, Poland
+						<span class="vertical-separator"></span>
+					</span>
+					<span class="level"> Mid 
+						<span class="vertical-separator"></span>
+					</span>
+					<span class="offer-duration">
+						<img src="./images/icon-offer-new.png" alt="icon-offer-new" />
+					</span>
+					<span class="salary">
+						9 350 - 14 000 PLN net💰
+					</span>
+					<img class="heart" src="./images/icon-heart.png" alt="icon-heart" />
+					<div class="langs">
+						<p class="language" id="ruby"> Ruby </p>
+						<p class="language"> JavaScript </p>
+						<p class="language"> SQL </p>
+					</div>
+					<button class="apply-btn">Quickly apply</button>
+				</div>
+			</div>
+			<div class="offer-wrapper">
+				<div class="offer-tab offer-tab-3"></div>
+				<div class="offer">
+						<img src="./images/icon-group.png" alt="icon-group" class="company-img" />
+						<span class="offer-title"> Remote Ruby on Rails Developer
+							<img src="./images/icon-remote.png" alt="icon-remote" class="remote-icon" />
+						</span>
+						<span class="company"> Netguru S.A. 
+							<span class="vertical-separator-1"></span>
+						</span>
+						<span class="location">
+							<img src="./images/icon-location.png" alt="icon-location" />
+							Poznan, Poland
+							<span class="vertical-separator"></span>
+						</span>
+						<span class="level"> Mid 
+							<span class="vertical-separator"></span>
+						</span>
+						<span class="offer-duration">2d ago</span>
+						<span class="salary">
+							9 350 - 14 000 PLN net💰
+						</span>
+						<img class="heart" src="./images/icon-heart.png" alt="icon-heart" />
+						<div class="langs">
+							<p class="language" id="ruby"> Ruby </p>
+							<p class="language"> JavaScript </p>
+							<p class="language"> SQL </p>
+						</div>
+						<button class="apply-btn">Quickly apply</button>
+				</div>
+			</div>
+			<div class="offer-wrapper">
+				<div class="offer-tab offer-tab-4"></div>
+				<div class="offer">
+						<img src="./images/icon-group.png" alt="icon-group" class="company-img" />
+						<span class="offer-title"> Remote Devops in Netguru
+							<img src="./images/icon-remote.png" alt="icon-remote" class="remote-icon" />
+						</span>
+						<span class="company"> Netguru S.A. 
+							<span class="vertical-separator-1"></span>
+						</span>
+						<span class="location">
+							<img src="./images/icon-location.png" alt="icon-location" />
+							Chełm, Poland
+							<span class="vertical-separator"></span>
+						</span>
+						<span class="level"> Mid 
+							<span class="vertical-separator"></span>
+						</span>
+						<span class="offer-duration">29.10.22</span>
+						<span class="salary">
+							9 350 - 14 000 PLN net💰
+						</span>
+						<img class="heart" src="./images/icon-heart.png" alt="icon-heart" />
+						<div class="langs">
+							<p class="language" id="ruby"> Ruby </p>
+							<p class="language"> JavaScript </p>
+							<p class="language"> SQL </p>
+						</div>
+						<button class="apply-btn">Quickly apply</button>
+				</div>
+			</div>
+			</div>
+	</section>
+</body>
+
+</html>
